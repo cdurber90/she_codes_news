@@ -23,6 +23,12 @@
     </div>
 
     <div id="all-stories">
+
+        <div id="author-container">
+            <h2>Search Authors</h2>
+
+        </div>
+
         {% if latest_stories %}
             {% for story in all_stories %}
                 {% include "./storyCard.html" with story=story %}
