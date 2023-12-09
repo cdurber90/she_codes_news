@@ -9,9 +9,19 @@
 
 <div id="story-wrapper">
     <h2>{{ story.title }}</h2>
-    <h4>{{ story.author }}</h4>
+    <h4><a href="{% url 'users:myAccount' story.author.id %}">{{ story.author }}</a></h4>
+
+    <p class="auth-pub">Posted: {{ story.pub_date|date:'d M y' }}</p>
+
+
     <div id="story-content">
-        <img src="{% static '/news/images/placeholder-5.jpg' %}">
+        {% if story.story_image %}
+        <img src="{{story.story_image}}">
+
+        {% else %}
+        <img src="https://picsum.photos/600">
+
+        {% endif %}
         {{ story.content|linebreaks }}
     </div>
 </div>

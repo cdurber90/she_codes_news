@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block stylesheets %}
+<link rel="stylesheet" type="text/css" href="{% static 'news/styles.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div id="my_profile">
+    <h2>{{ user.username }}</h2>
+
+    {% if request.user.is_authenticated %}
+    <p>Email: {{ user.email }}</p>
+    <p>About: {{ user.about }}</p>
+    {% endif %}
+
+    <img src="{{ user.user_img }}" alt="Profile Pic">
+    <div id="user_stories">
+        <h3>Stories Posted:</h3>
+        
+        {% for story in user.newsstory_set.all %}
+            <div class="acc_story_grid">
+                <h4>{{ story.title }}</h4>
+            </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+{% endblock %}
+
+
+
+
+
+
+
