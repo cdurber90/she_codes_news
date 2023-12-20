@@ -38,11 +38,11 @@ A news website that allows users to read news stories, create their own profile 
 - [x] Log-in/log-out
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [x] "Account view" page
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+![ {{ Description of image }} ]git( {{ ./relative_path_to_image_file }} )
 - [x] "Create Account" page
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [x] View stories by author
-! (she_codes_news/news/static/news/images/Screenshot 2023-12-20 at 11.25.09 am.png)
+! (https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/Screenshot%202023-12-20%20at%2011.25.09%20am.png?raw=true)
 - [x] "Log-in" button only visible when no user is logged in/"Log-out" button
         only visible when a user *is* logged in
     ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
