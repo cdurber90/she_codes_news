@@ -1,7 +1,8 @@
 .story-card {
     margin: 2px;
-    border: 1px solid #000;
+    border: 1px dotted white;
     padding: 5px;
+    background-color: plum;
 }
 
 .story-card img {
@@ -21,18 +22,22 @@
 
 #story-card-1 {
     grid-area: left-1;
+    background-color: plum;
 }
 
 #story-card-2 {
     grid-area: right-1;
+    background-color: plum;
 }
 
 #story-card-3 {
     grid-area: right-2;
+    background-color: plum;
 }
 
 #story-card-4 {
     grid-area: right-3;
+    background-color: plum;
 }
 
 #story-card-2 a,
