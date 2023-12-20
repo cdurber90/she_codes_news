@@ -30,23 +30,26 @@ A news website that allows users to read news stories, create their own profile 
 
 ## Project Features
 - [x] Order stories by date
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+
+![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/Screenshot%202023-12-20%20at%2011.25.09%20am.png?raw=true)
 - [x] Styled "new story" form
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/form-view.png?raw=true)
 - [x] Story images
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [x] Log-in/log-out
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/login.png?raw=true)
+![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/logout.png?raw=true)
 - [x] "Account view" page
 ![ {{ Description of image }} ]git( {{ ./relative_path_to_image_file }} )
 - [x] "Create Account" page
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [x] View stories by author
-![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/Screenshot%202023-12-20%20at%2011.25.09%20am.png?raw=true)
+![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/stories-posted.png?raw=true)
 - [x] "Log-in" button only visible when no user is logged in/"Log-out" button
         only visible when a user *is* logged in
-    ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
-- [x] "Create Story" functionality only available when user is logged in ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/login.png?raw=true)
+- [x] "Create Story" functionality only available when user is logged in
+![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/logout.png?raw=true)
 ## Additional Features:
 - [ ] Add categories to the stories and allow the user to search for stories by
         category.
