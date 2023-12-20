@@ -10,7 +10,9 @@
 
     <br>
 
-    <h2>Latest News</h2>
+    <h2>LATEST NEWS</h2>
+
+    <br>
 
     <div id="latest-stories">
         {% if latest_stories %}
@@ -22,12 +24,19 @@
         {% endif %}
     </div>
 
+    <br>
+    <br>
+
+    <h2>ALL STORIES</h2>
+
+    <br>
+
     <div id="all-stories">
 
-        <div id="author-container">
+        <!-- <div id="author-container">
             <h2>Search Authors</h2>
 
-        </div>
+        </div> -->
 
         {% if latest_stories %}
             {% for story in all_stories %}

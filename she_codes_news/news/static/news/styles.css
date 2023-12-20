@@ -12,31 +12,31 @@
 
 #latest-stories {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 1px 1px;
+    gap: 20px 20px;
     grid-template-areas: "left-1 right-1" "left-1 right-2" "left-1 right-3";
     max-height: 500px;
 }
 
 #story-card-1 {
     grid-area: left-1;
-    background-color: pink;
+    background-color: #175676;
 }
 
 #story-card-2 {
     grid-area: right-1;
-    background-color: blue;
+    background-color: #175676;
 }
 
 #story-card-3 {
     grid-area: right-2;
-    background-color: chartreuse;
+    background-color: #175676;
 }
 
 #story-card-4 {
     grid-area: right-3;
-    background-color: darksalmon;
+    background-color: #175676;
 }
 
 #story-card-2 a,
@@ -52,12 +52,14 @@
 #story-card-3 .story-card-text h3,
 #story-card-4 .story-card-text h3 {
     font-size: 16px;
+    padding: 5px;
 }
 
 #story-card-2 .story-card-text h4,
 #story-card-3 .story-card-text h4,
 #story-card-4 .story-card-text h4 {
     font-size: 12px;
+    padding: 5px;
 }
 
 #story-card-2 img,
@@ -69,6 +71,7 @@
 }
 
 #all-stories {
+    border-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

@@ -21,7 +21,7 @@
         
         {% for story in user.newsstory_set.all %}
             <div class="acc_story_grid">
-                <h4><a href="{% url 'news:story' story.id %}">{{ story.title }}></a></h4>
+                <h4><a href="{% url 'news:story' story.id %}">{{ story.title }}</a></h4>
             </div>
         {% endfor %}
     </div>

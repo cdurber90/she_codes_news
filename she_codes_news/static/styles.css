@@ -15,7 +15,7 @@ header {
 
 
 h1 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'sans-serif';
     color: white;
     text-decoration: none;
     font-size: 4rem;
@@ -23,7 +23,11 @@ h1 {
 }
 
 h2 {
-   font-family: 'Montserrat Subrayada', sans-serif; 
+   font-family: 'sans-serif'; 
+   color: white;
+   display: flex;
+   justify-content: center;
+
 }
 
 h3 {
@@ -41,6 +45,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    color: white;
 
 }
 
@@ -57,4 +62,45 @@ a:hover {
 
 a, p {
     font-family: monospace;
+    color: white;
+}
+
+
+.container{
+    display:inline-block;
+    width:100%;
+    padding: 2%;
+    margin:0.25em auto;
+   
+} 
+
+
+form{
+    margin: 0 auto;
+    align-items: center;
+    background-color:white;
+    box-sizing: border-box;
+    width: 90vw;
+    max-width: 700px;
+    margin: 20px auto;
+    padding:2em;
+    display:block;
+
+}
+
+
+label,input, textarea, select{
+    display:block;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    padding:0px;
+}
+
+label,input,select{
+    height: 2.5em;
+}
+
+label{
+    text-decoration:none;
+    color: black;
 }
