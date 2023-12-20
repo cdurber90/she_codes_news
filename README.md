@@ -42,7 +42,7 @@ A news website that allows users to read news stories, create their own profile 
 - [x] "Create Account" page
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 - [x] View stories by author
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+she_codes_news/news/static/news/images/Screenshot 2023-12-20 at 11.25.09 am.png
 - [x] "Log-in" button only visible when no user is logged in/"Log-out" button
         only visible when a user *is* logged in
     ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
