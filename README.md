@@ -31,7 +31,7 @@ A news website that allows users to read news stories, create their own profile 
 ## Project Features
 - [x] Order stories by date
 
-![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/main-story.png?raw=true)
+![model](https://github.com/cdurber90/she_codes_news/blob/main/she_codes_news/news/static/news/images/main-page.png?raw=true)
 
 - [x] Styled "new story" form
 
